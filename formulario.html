@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="cs icon" href="favicon.ico">
+	<title>Formulário de Dúvidas</title>
+</head>
+<meta charset="utf-8">
+<body>
+	<h1><ins>Formulário para Dúvidas CS:GO</ins></h1>
+
+	<h3>Tópicos</h3>
+	<a href=index.html>Página Inicial</a>
+    |
+    <a href=curiosidades.html>Curiosidades</a>
+
+	<p><ins>Preencha aqui:</ins></p>
+
+	<form method="post">
+		<label for="nome">Nome:</label><br>
+	    <input type="text" name="Nome" size="50" maxlength="40" value="Nome" minlength="2" id="nome" placeholder="Escreva seu nome" required>
+
+	    <br><br>
+
+	    Idade:<br>
+	    <input type="number" name="Idade" size="3" max="120" min="50" placeholder="Idade" step="2">
+
+	    <br><br>
+
+	    E-mail:<br>
+        <input type="email" placeholder="e-mail" size="49" name="email">
+
+        <br><br>
+
+        Assunto:<br>
+        <select name="assunto">
+  	      <option value="geral">Geral</option>
+  	      <option value="requisitos">Requisistos</option>
+  	      <option value="armas">Armas</option>
+  	      <option value="modos" selected>Modos de Jogo</option>
+  	      <option value="mapas">Mapas</option>
+  	      <option value="sugestão">Sugestão</option>
+  	      <option value="outro">Outros</option>
+        </select>
+
+        <br><br>
+
+        Dúvida:<br>
+        <textarea name="Observações" rows="5" cols="50">   
+        </textarea>
+
+        <br><br>
+
+        <input type="reset" value="Limpar" name="Limpar">
+
+        <input type="submit" name="Enviar">
+	</form>
+
+
+</body>
+</html>
